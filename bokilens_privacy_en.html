@@ -12,7 +12,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p>Last updated: <time datetime="2026-08-28">August 28, 2026</time></p>
+  <p>Last updated: <time datetime="2026-09-08">September 8, 2026</time></p>
 
   <h2>1. Information We Collect</h2>
   <p>This app does not require its own account registration and does not transmit any personal information to our servers.</p>
@@ -30,20 +30,29 @@
   <p>Premium purchases are processed through Apple's App Store. This app does not collect or store your payment information.</p>
 
   <h2>4. Analytics &amp; Advertising</h2>
-  <p>To improve the app, we use TelemetryDeck (TelemetryDeck GmbH), a privacy-focused analytics service, to collect anonymous usage events. We send only an anonymized hashed identifier and interaction events that describe screens, features, learning-progress states, and purchase-success events.</p>
+  <p>We use TelemetryDeck (TelemetryDeck GmbH), a privacy-focused analytics service, to understand how screens and features are used, how learning progresses, and how users reach a purchase, so that we can improve Boki Lens.</p>
+  <h3>Sharing controls by app version</h3>
+  <p><strong>Version 1.14:</strong> The app sends the anonymous events described below without an in-app sharing choice. This version does not have an Optional analytics setting.</p>
+  <p><strong>Version 1.15 and later:</strong> Sharing is optional. The app sends events only after you explicitly allow sharing during onboarding or under Settings &gt; Optional analytics. Before you allow sharing, or when you choose Don't share, no events are sent and no analytics identifier is created. Events before consent are not saved for later transmission. If you update from 1.14 without a recorded sharing permission, no events are sent until you allow sharing. Declining does not affect lessons, purchases, purchase restoration, or any other feature. This description applies to devices with 1.15 or later installed; it does not change the behavior of 1.14.</p>
+  <h3>Information sent</h3>
+  <p>We send a hash of a random identifier generated on your device, a random ID for each analytics session, the app version and build number, whether an event is a test event, and interaction events describing screens, features, learning-progress states, and successful purchases.</p>
   <p>We do not send the following information to TelemetryDeck:</p>
   <ul>
     <li>Your journal entry contents, entered amounts, or free-form input</li>
     <li>Your name, email address, or other contact information</li>
     <li>Any advertising or tracking identifiers</li>
   </ul>
-  <p>Learning-progress events may include stage IDs, lesson IDs, solved counts, and correct counts. Common event context may include the display language (Japanese or English), your selected learning track (unselected, Japanese Bookkeeping, or Global Basics), and the content-experience version. We do not send your device region, country, or raw locale. Purchase-success events may include the plan name, product ID, and the category of the screen or feature where the purchase started. This category is limited to stage, drill, scenario, settings, or unknown; it does not include screen text, transaction IDs, prices, or Apple IDs. This app does not use advertising SDKs. Analytics data is not linked to you personally and is never used for advertising or tracking.</p>
+  <p>Learning-progress events may include stage IDs, lesson IDs, the category of the entry used to start a lesson, solved counts, and correct counts. Common event context may include the display language (Japanese or English), your selected learning track (unselected, Japanese Bookkeeping, or Global Basics), and the content-experience version. We do not send your device region, country, or raw locale. Purchase-success events may include the plan name, product ID, and the category of the screen or feature where the purchase started. This category is limited to stage, drill, scenario, settings, or unknown; it does not include screen text, transaction IDs, prices, or Apple IDs. This app does not use advertising SDKs. Analytics data is not linked to you personally and is never used for advertising or tracking.</p>
+  <h3>Withdrawing consent in version 1.15 and later</h3>
+  <p>You can withdraw consent at any time under Settings &gt; Optional analytics. Withdrawal stops future sending. Unsent events are deleted or, if a file cannot be deleted, invalidated so they cannot be sent again. The local anonymous identifier is also deleted. If you allow sharing again later, a new random anonymous identifier is created. This action does not delete your learning records, journal entries, or data stored in iCloud.</p>
 
-  <h2>5. Deleting Your Data</h2>
+  <h2>5. Data Deletion and Analytics Retention</h2>
   <ul>
     <li>Deleting the app from your device removes locally stored data.</li>
     <li>Data in iCloud Drive remains. To delete it completely, go to iOS Settings &gt; Apple ID &gt; iCloud &gt; Manage Storage &gt; Boki Lens and choose "Delete Data."</li>
+    <li>Withdrawing analytics consent or deleting the app does not delete events already delivered to TelemetryDeck. Boki Lens cannot link these anonymous events back to you personally and cannot delete them on a per-user basis.</li>
   </ul>
+  <p>TelemetryDeck states that it currently has no deletion schedule or guaranteed retention limit for events in long-term cold storage. See the retention explanation in the current <a href="https://telemetrydeck.com/docs/guides/privacy-faq/">TelemetryDeck Privacy FAQ</a>. This concerns events already delivered to the analytics service, separately from the deletion of learning data on your device or in iCloud.</p>
 
   <h2>6. Contact</h2>
   <p>For questions, please contact us:</p>
